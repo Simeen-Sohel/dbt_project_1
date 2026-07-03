@@ -1,0 +1,21 @@
+simeen_dbt_learning:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-c9dd98b9-3c48.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/c7218c4dad405ebb
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-c9dd98b9-3c48.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/c7218c4dad405ebb
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+  target: dev
+
+
