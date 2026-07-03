@@ -1,0 +1,14 @@
+version: 2 
+
+sources: 
+    - name: source #schema name is source 
+      database: '{{ target.catalog }}' # same as catalog name 
+      schema: source
+      tables:
+        - name: fact_sales
+        - name: fact_returns
+        - name: dim_date
+        - name: dim_store
+        - name: dim_product
+        - name: dim_customer
+        - name: items_wd
